@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg-deep: #0f1222;
+  --bg-soft: #181c31;
+  --lavender: #c9a9ff;
+  --rose: #f9d5d3;
+  --sage: #a8d5ba;
+  --cream: #fff9f2;
+  --sky: #38b6ff;
+}
+
+/* helper classes */
+.glass {
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.06);
+  box-shadow: 0 8px 30px rgba(2,6,23,0.55);
+  border-radius: 12px;
+}
+.polaroid {
+  background: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(255,255,255,0.92));
+  border-radius: 8px;
+  padding: 10px 12px 18px 12px;
+  box-shadow: 0 6px 18px rgba(3,5,20,0.35);
+}
+
+html, body, #root { height: 100%; }
+body { margin: 0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; color: #eef2ff; }
+
+/* small utility to reduce motion when user prefers reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}
+
+/* wallpaper container */
+.desktop-wallpaper {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 600ms ease;
+}
+
+/* wallpaper preview thumbnails */
+.wall-thumb { width: 120px; height: 68px; border-radius: 8px; overflow: hidden; box-shadow: 0 6px 20px rgba(2,6,23,0.45); cursor: pointer; }

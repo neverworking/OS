@@ -1,0 +1,22 @@
+{
+  "default": [
+    "Welcome back, my favorite person \ud83c\udf38",
+    "Booting up hugs & kisses \ud83d\udc95",
+    "System online: Love Mode activated \ud83d\udc96",
+    "Your smile is my daily upgrade \u2728",
+    "Loading cuddles... 100% complete \ud83e\udd70",
+    "Good to see you again, my sunshine \u2600\ufe0f",
+    "Today is going to be magical because of you \ud83c\udf19"
+  ],
+  "special": {
+    "02-14": [
+      "Happy Valentine\u2019s Day, love! \ud83c\udf39\ud83d\udc8c"
+    ],
+    "05-10": [
+      "Happy Anniversary, my forever \ud83c\udf19\u2728"
+    ],
+    "08-30": [
+      "Happy Birthday, my sunshine \u2600\ufe0f\ud83c\udf82"
+    ]
+  }
+}
